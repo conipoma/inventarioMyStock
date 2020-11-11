@@ -1,0 +1,242 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Titulo web */
+header {
+    background-color: white;
+}
+h1 {
+    text-align: center;
+    font-family: 'Fauna One', serif;
+    font-size: 4rem;
+}
+
+/* Nav */
+.mb-5, .my-5 {
+    margin-bottom: 1.5rem!important;
+}
+
+.nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav a {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 2rem;
+    color: black !important;
+    padding: 0.5rem;
+    margin-right: 3rem;
+}
+a:hover {
+    color: #6789c1ff !important;
+}
+
+/* Carrusel */
+#carrusel {
+    padding-top: 1rem;
+}
+.carousel-item {
+    width: 100%;
+    height: auto;
+}
+.w-100{
+    width: 50% !important;
+    display:block;
+    margin:auto;
+}
+
+/* Consulta de stock */
+
+.consultaDeStock {
+    font-family: 'Harmattan', sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Modal agregar producto */
+.modal-footer {
+    margin-top: 1rem;
+}
+
+/* Botones */
+.botones {
+    width: auto;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.botonAgregar{
+    width: 40%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Harmattan', sans-serif;
+    padding: .375rem .75rem !important;
+
+}
+.botonBorrar {
+    width: 40%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Harmattan', sans-serif;
+    padding: .375rem .75rem !important;
+}
+
+/* tabla de productos */
+
+.table th{
+    margin: 2rem !important;
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-family: 'Harmattan', sans-serif;
+
+}
+
+.table td, .table th{
+    vertical-align: text-bottom !important;
+    text-align: center;
+    
+}
+
+/* Modal mostrar producto */
+
+.muestraDatos {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Harmattan', sans-serif;
+}
+
+h4 {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.imagenProducto {
+    max-width: 200px;
+}
+
+/* Footer */
+
+.card {
+    margin-top: 10rem;
+}
+
+.card-header {
+background-color: transparent;
+color: #000000;
+}
+
+.card-body img  {
+width: 1.5rem;
+margin-bottom: 0.5rem;
+}
+
+/* Contacto */
+
+/* Títulos */
+.myStockContacto  {
+    background-color: #6789c1ff;
+    color: white;
+    font-size: 2.5rem;
+    padding: 1rem;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-family: 'Harmattan', sans-serif;
+}
+
+/* Formulario */
+form    {
+    width: 68%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.formularioNombre   {
+    
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(107, 104, 104);
+    padding: 0 5rem 1rem 5rem;
+}
+
+.inputNombre    {
+    width: 100%;
+}
+
+.formularioApellido {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(107, 104, 104);
+    padding: 0 5rem 1rem 5rem;
+}
+
+.inputApellido  {
+    width: 100%;
+}
+
+.formularioEmail    {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(107, 104, 104);
+    padding: 0 5rem 1rem 5rem;
+}
+
+.inputEmail  {
+    width: 100%;
+}
+
+.mensaje  {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(107, 104, 104);
+    padding: 0 5rem 0 5rem;
+}
+
+.textArea {
+    width: 100%;
+}
+
+.informacion {
+    font-family: 'Harmattan', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(107, 104, 104);
+    padding-left: 5rem;
+    padding-top: 1rem;
+}    
+
+.boton {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+input.boton  {
+    font-family: 'Harmattan', sans-serif;
+    border-radius: 4px;
+    background-color:#343a40;
+    border: none; 
+    color: #FFFFFF; 
+    text-align: center;    
+    font-size: 1.5rem;
+    width: 70px; 
+    height: 40px;
+    cursor: pointer; 
+    margin: 2rem 5rem 5rem 5rem; 
+}
+
+input.boton:hover {
+    background-color: rgb(0, 0, 2);
+    transition: all .2s;
+}
